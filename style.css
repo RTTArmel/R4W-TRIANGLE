@@ -37,12 +37,14 @@ margin-bottom: 30px;
  }
 
  #resultat{
+     text-align: left !important;
      background-color: lightgrey;
      margin-top: 20px;
      font-weight: bold;
  }
 
  #resultat1{
+     text-align: left !important;
     background-color: lightgrey;
     margin-top: 20px;
     font-weight: bold;
