@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pyramide</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <!-- Affichage -->
+            <div class="col-md-4" id="face1" >
+                <div><h4>PYRAMIDE SIMPLE</h4></div>
+                <div>
+                    <label >Valeur: </label>
+                    <input type="number" id="valeur" class="val">
+                </div>
+                <div>
+                    <label >Nombre: </label>
+                    <input type="number" id="nombre">
+                </div>
+                <button class="btn btn-danger" onclick="simple();">VALIDER</button>
+                <div id="resultat"></div>
+            </div>
+
+            <div class="col-md-4" id="face2">
+                    <div><h4>PYRAMIDE COMPLEXE</h4></div>
+                <div>
+                    <label >Valeur: </label>
+                    <input type="number" id="valeur1" class="val">
+                </div>
+                <div>
+                    <label >Nombre: </label>
+                    <input type="number" id="nombre1">
+                </div>
+                <button class="btn btn-primary" onclick="complexe();">VALIDER</button>
+                <div id="resultat1"></div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+    <script src="algo.js"></script>
+</body>
+</html>
